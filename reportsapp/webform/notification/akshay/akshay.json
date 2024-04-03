@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-04-03 16:51:07.019224",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "server_side_script",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Thanks for submit data",
+ "modified": "2024-04-03 16:59:45.038888",
+ "modified_by": "Administrator",
+ "module": "webform",
+ "name": "Akshay",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "email"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Thanks mail",
+ "sender_email": "akshaysharmaxyz12@gmail.com",
+ "subject": "Thanks Mail"
+}
