@@ -133,13 +133,13 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#     'cron': {
-#        "* * * * *": [
-#         "reportsapp.task.cron"
-#        ] 
-#     },
-# }
+scheduler_events = {
+    'cron': {
+       "* * * * *": [
+        "reportsapp.task.cron"
+       ] 
+    },
+}
 
 	# "all": [
 	# 	"reportsapp.task.all"
