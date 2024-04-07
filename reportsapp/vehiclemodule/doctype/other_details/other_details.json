@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-04 11:50:25.824027",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fuel_type",
+  "transmission_type",
+  "no_of_owners"
+ ],
+ "fields": [
+  {
+   "fieldname": "fuel_type",
+   "fieldtype": "Select",
+   "label": "Fuel Type",
+   "options": "Petrol\nDiesel\nCNG\nElectric\nHybrid"
+  },
+  {
+   "fieldname": "transmission_type",
+   "fieldtype": "Select",
+   "label": "Transmission Type",
+   "options": "Automatic\nManual"
+  },
+  {
+   "fieldname": "no_of_owners",
+   "fieldtype": "Select",
+   "label": "No. Of Owners",
+   "options": "1st\n2nd\n3rd\n4th\n4+"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-06 00:46:27.193482",
+ "modified_by": "Administrator",
+ "module": "Vehiclemodule",
+ "name": "Other Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

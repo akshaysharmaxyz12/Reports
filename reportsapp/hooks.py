@@ -134,22 +134,30 @@ app_license = "mit"
 # ---------------
 
 # scheduler_events = {
-# 	"all": [
-# 		"reportsapp.tasks.all"
-# 	],
-# 	"daily": [
-# 		"reportsapp.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"reportsapp.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"reportsapp.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"reportsapp.tasks.monthly"
-# 	],
+#     'cron': {
+#        "* * * * *": [
+#         "reportsapp.task.cron"
+#        ] 
+#     },
 # }
+
+	# "all": [
+	# 	"reportsapp.task.all"
+	# ],
+	# "daily": [
+	# 	"reportsapp.task.daily"
+	# ],
+	# "hourly": [
+	# 	"reportsapp.task.hourly"
+	# ],
+	# "weekly": [
+	# 	"reportsapp.task.weekly"
+	# ],
+	# "monthly": [
+	# 	"reportsapp.task.monthly"
+	# ],
+# }
+
 
 # Testing
 # -------
