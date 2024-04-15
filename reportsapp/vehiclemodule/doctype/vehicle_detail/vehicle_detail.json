@@ -5,6 +5,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "brand_name",
+  "car_name",
   "fuel_and_transmission_type",
   "other_details",
   "length_of_child_tables"
@@ -26,11 +28,21 @@
    "fieldname": "length_of_child_tables",
    "fieldtype": "Read Only",
    "label": "Length Of Child Tables"
+  },
+  {
+   "fieldname": "brand_name",
+   "fieldtype": "Data",
+   "label": "BRAND Name"
+  },
+  {
+   "fieldname": "car_name",
+   "fieldtype": "Data",
+   "label": "Car Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-05 18:12:38.269692",
+ "modified": "2024-04-11 14:18:29.263187",
  "modified_by": "Administrator",
  "module": "Vehiclemodule",
  "name": "vehicle Detail",
